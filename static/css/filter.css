@@ -1,0 +1,101 @@
+.filter-wrapper {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 48rem) {
+  .filter-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .filter {
+    width: 66.66%;
+  }
+}
+
+.filter__categories__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.filter__categories__list__item {
+  padding-right: 1.5rem;
+}
+
+.filter__categories__list__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter__categories__list__item a:hover {
+  color: #003cff;
+}
+
+
+.filter__categories__list__link--active {
+  border-bottom: 1px solid #000;
+}
+
+.filter__years__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.filter__years__list__item {
+  padding-right: 1.5rem;
+}
+
+.filter__years__list__item a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.875rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter__years__list__item:first-child a {
+  border-bottom: 1px solid #000;
+}
+
+@media (min-width: 48rem) {
+  .layout-view {
+    margin-left: 6.25rem;
+  }
+}
+
+.filter__years__list__item a:hover {
+  color: #003cff;
+}
+
+.layout-view__list {
+  list-style: none;
+  display: flex;
+}
+
+@media (min-width: 48rem) {
+  .layout-view__list {
+    width: 11rem;
+  }
+}
+
+.list__layout-view {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.list__layout-view--active {
+ border-bottom: 1px solid #000;
+}

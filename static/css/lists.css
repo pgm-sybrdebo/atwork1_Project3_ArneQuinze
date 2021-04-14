@@ -1,0 +1,158 @@
+.listPreview {
+  position: relative;
+  margin-bottom: 6.25rem;
+}
+
+@media (min-width:64rem) {
+  .listPreview {
+    margin-bottom: 13.75rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .listPreview__title-block {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform-origin: center;
+    transform: rotate(-90deg) translateX(25%) translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 13.5rem;
+  }
+}
+
+@media (min-width:64rem) {
+  .listPreview__title {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.listPreview__link {
+  color: #003cff;
+  margin-bottom: 3rem;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.listPreview__link:hover {
+  border-bottom-color: #003cff;
+}
+
+.showList {
+  list-style-type: none;
+}
+
+@media (min-width: 48rem) {
+  .showList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.showList__item {
+  margin-bottom: 3.75rem;
+}
+
+@media (min-width: 48rem) {
+  .showList__item {
+    margin-left: 6.25rem;
+    flex-grow: 1;
+    margin-bottom: 7.5rem;
+    width: calc(33.33% - 6.25rem);
+  }
+}
+
+@media (min-width: 48rem) {
+  .showList__item:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 48rem) {
+  .showList__item:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 64rem) {
+  .showList__item {
+    margin-bottom: 0rem;
+  }
+}
+
+.showList__img {
+  width: 100%;
+}
+
+.showList__figcaption {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: #787878;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+}
+
+.link--big {
+  font-size: 1.3rem;
+}
+
+.press {
+  margin-top: 0.25rem;
+  padding-bottom: 1.25rem;
+}
+
+@media (min-width: 48rem) {
+  .press {
+    margin-top: 5rem;
+  }
+}
+
+.press-block {
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 64rem) {
+  .press-block {
+    margin-bottom: 13.75rem;
+    margin-top: 5rem;
+  }
+}
+
+.atelier {
+  margin-top: 0.25rem;
+  padding-bottom: 1.25rem;
+}
+
+@media (min-width: 48rem) {
+  .atelier {
+    margin-top: 5rem;
+  }
+}
+
+.atelier__introduction {
+  margin-bottom: 10.8rem;
+}
+
+@media (min-width: 48rem) {
+  .atelier__introduction {
+    width: 74%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 48rem) {
+  .atelier-block li {
+    margin-bottom: 7.5rem;
+  }
+}

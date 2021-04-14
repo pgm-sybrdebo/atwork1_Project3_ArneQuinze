@@ -1,0 +1,115 @@
+.contact__title {
+  padding-bottom: 0;
+}
+
+@media (min-width:48rem) {
+  .contact__title {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width:48rem) {
+  .contact__introduction {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+
+.contact__information {
+  padding-top: 3.5rem;
+  padding-bottom: 6rem;
+  list-style: none;
+}
+
+@media (min-width: 48rem) {
+  .contact__information {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 12.5rem;
+  }
+}
+
+.contact__information__item {
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 48rem) {
+  .contact__information__item {
+    width: calc(33.33% - 2.1rem);
+    margin-left: 6.25rem;
+  }
+  .contact__information__item:first-child {
+    margin-left: 0;
+  }
+}
+
+.contact__link {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact__link:hover {
+  color: #003cff;
+  text-decoration-color: #003cff;
+}
+
+.real-time {
+  padding-top: 1rem;
+}
+
+
+.input__mail {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Moderat';
+  border: 1px solid rgba(17, 17, 19, 0.1);
+  margin-bottom: 1rem;
+  width: 100%;
+  color: #acacac;
+  max-width: 25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.input__mail:focus {
+  outline: 1px solid rgba(21, 141, 247, 0.5);
+  border: 1px solid rgba(21, 141, 247, 0.5);
+  box-shadow: 0 0 3px rgba(21, 141, 247, 0.5);
+}
+
+.input__message {
+  display: block;
+  max-width: 25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  font-family: 'Moderat';
+  color: #acacac;
+  border: 1px solid rgba(17, 17, 19, 0.1);
+  line-height: 1.5;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.input__message:focus {
+  outline: 1px solid rgba(21, 141, 247, 0.5);
+  border: 1px solid rgba(21, 141, 247, 0.5);
+  box-shadow: 0 0 3px rgba(21, 141, 247, 0.5);
+}
+
+.send__button {
+  font-size: 0.875rem;
+  background-color: #003cff;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.95);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.send__button:hover {
+  background-color: #0030cc;
+}

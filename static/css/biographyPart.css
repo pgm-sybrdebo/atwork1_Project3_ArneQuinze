@@ -1,0 +1,59 @@
+.biographyPart {
+  margin-bottom: 6.25rem;
+}
+
+@media (min-width:48rem) {
+  .biographyPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13.75rem;
+  }
+}
+
+.biographyPart__img {
+  padding-bottom: 3.75rem;
+  width: 100%;
+  max-width: 62.5rem;
+}
+
+@media (min-width:48rem) {
+  .biographyPart__img {
+    padding: 0;
+    width: 60%;
+    margin: 0;
+  }
+}
+
+@media (min-width:48rem) {
+  .biographyPart__wrapper {
+    width: 40%;
+    padding-left: 6.25rem;
+    margin-right: 0;
+  }
+}
+
+.biographyPart__title {
+  font-size: 2.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.biography__link {
+  font-weight: 400;
+  text-decoration: none;
+  padding-top: 1rem;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.biography__link:hover {
+  color: #003cff;
+  border-color: #003cff;
+}
+
+@media (min-width: 64rem) {
+  .biography__link {
+    font-size: 1.75rem;
+  }
+}
