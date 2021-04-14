@@ -1,4 +1,4 @@
-# Third project @work1: Gentse Feesten
+# Third project @work1: Arne Quinze
 
 Third Project @work1 2020-21 | Associate Degree in Computer Programming | Artevelde University of Applied Sciences
 
